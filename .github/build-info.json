@@ -1,29 +1,15 @@
 {
     "gluon": {
-        "repository": "freifunk-gluon/gluon",
-        "branch": "master",
-        "commit": "10721f6e23184a1ca501ba35173e49cd90b1bfd3"
+        "repository": "herbetom/gluon",
+        "branch": "asus-tuf-ax6000",
+        "commit": "bb737a1b8cf393213589eb750834c1c1f585abf7"
     },
     "container": {
         "version": "master"
     },
     "build": {
         "targets": [
-            "ath79-generic",
-            "ath79-nand",
-            "ipq40xx-generic",
-            "ipq806x-generic",
-            "lantiq-xrx200",
-            "lantiq-xway",
-            "ipq806x-generic",
             "mediatek-filogic",
-            "mpc85xx-p1010",
-            "mpc85xx-p1020",
-            "ramips-mt76x8",
-            "ramips-mt7620",
-            "ramips-mt7621",
-            "rockchip-armv8",
-            "x86-generic",
             "x86-64"
         ]
     }
